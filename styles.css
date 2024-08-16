@@ -13,11 +13,13 @@ body {
   color: white;
   padding: 10px 48px;
   gap: 80px;
+  align-items: center;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  gap: 950px;
 }
 
 a {
@@ -32,7 +34,6 @@ a {
   font-size: 24px;
   color: #f9faf8;
   font-family: sans-serif;
-  margin-right: auto;
   font-weight: bold;
 }
 
@@ -44,7 +45,7 @@ a {
 .first-content {
   margin-bottom: 100px;
   display: flex;
-  gap: 8px;
+  gap: 80px;
 }
 
 .main-text {
@@ -72,6 +73,7 @@ a {
   height: 200px;
   width: 200px;
   border: 2px solid blue;
+  border-radius: 15px;
 }
 
 .second {
@@ -85,4 +87,10 @@ a {
   font-weight: bolder;
   color: #1f2937;
   justify-content: center;
+}
+
+.information-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
