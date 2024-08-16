@@ -3,3 +3,8 @@ body {
     flex-direction: column;
 }
 
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
