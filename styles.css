@@ -129,7 +129,37 @@ a {
 .action-box {
   background-color: #3882f6;
   border-radius: 15px;
-  padding: 50px;
+  padding: 50px 200px;
   display: flex;
-  gap: 100px;
+  gap: 200px;
+}
+
+.action-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 7px 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.action-box-heading {
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.action-box-content {
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 48px;
 }
