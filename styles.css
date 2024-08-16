@@ -41,10 +41,32 @@ a {
 
 .first-content {
   margin-bottom: 100px;
+  display: flex;
+  gap: 8px;
 }
 
 .main-text {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+}
+
+.main-content {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 35px;
+  border: none;
+}
+
+.sample-image {
+  height: 400px;
+  width: 200px;
 }
