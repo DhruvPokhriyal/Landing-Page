@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: sans-serif;
+  gap: 20px;
 }
 
 .first {
@@ -69,4 +71,17 @@ a {
 .sample-image {
   height: 400px;
   width: 200px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+}
+
+.information-heading {
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  justify-content: center;
 }
